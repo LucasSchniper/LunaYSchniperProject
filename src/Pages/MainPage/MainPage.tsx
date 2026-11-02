@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import MealCard from '../../../Components//MealCard/MealCard';
-import InputSearch from '../../../Components/InputSearch/InputSearch';
+import MealCard from '../../Components/MealCard/MealCard';
+import InputSearch from '../../Components/InputSearch/InputSearch';
 interface MealAPI {
   idMeal: string;
   strMeal: string;
